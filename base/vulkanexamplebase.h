@@ -70,7 +70,7 @@ protected:
 	uint32_t lastFPS = 0;
 	// Vulkan instance, stores all per-application states
 	VkInstance instance;
-	// Physical device (GPU) that Vulkan will ise
+	// Physical device (GPU) that Vulkan will use
 	VkPhysicalDevice physicalDevice;
 	// Stores physical device properties (for e.g. checking device limits)
 	VkPhysicalDeviceProperties deviceProperties;
